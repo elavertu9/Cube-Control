@@ -14,11 +14,11 @@ class Layer() :
     self.turn_off_all_pins()
 
   def configure_pins_for_output(self) :
-    for pin in ground_pins :
+    for pin in self.ground_pins :
         GPIO.setup(pin, GPIO.OUT)
 
   def turn_off_all_pins(self) :
-    for pin in ground_pins :
+    for pin in self.ground_pins :
         GPIO.output(pin, LOW)
 
   def turn_on_layer(self, which_layer) :
