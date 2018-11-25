@@ -22,11 +22,17 @@
  
 	 - ``
     configure_pins_for_output() -> Called by constructor
+    
     wait(seconds)
+    
     turn_color_on(color)
+    
     turn_color_off(color)
+    
     blink_color(color)
+    
     reset_light() -> Called by constructor
+    
     get_pin_number_if_color_is_valid()
     ``
 
@@ -48,11 +54,17 @@
     
     - `` 
     wait(seconds)
+    
     turn_on_one_light(light_index, color)
+    
     blink_one_light(light_index, color)
+    
     turn_off_one_light(light_index)
+    
     blink_plane(color)
+    
     turn_on_plane(color)
+    
     turn_off_plane() -> Called by constructor
     ``
 
@@ -74,7 +86,8 @@
    
    - ``
     	configure_pins_for_output() -> Called by constructor
-    	turn_off_all_pins() -> Called by constructor
+    	
+	turn_off_all_pins() -> Called by constructor
     ``
 
 ## IV. test.py
