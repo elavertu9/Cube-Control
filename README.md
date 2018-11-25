@@ -32,9 +32,9 @@
 
 ## II. Plane.py
 **Constructor :**
-- ``
+```python
   Plane(light_list)  
-  ``
+```
 	
 - `light_list` is a list of the Light objects you
       have initialized that lay in the same plane.
@@ -46,15 +46,15 @@
  - **Methods :**
     - *(Valid color arguments: "RED", "GREEN", "BLUE")*
     
-    - `` 
-    wait(seconds)
-    turn_on_one_light(light_index, color)
-    blink_one_light(light_index, color)
-    turn_off_one_light(light_index)
-    blink_plane(color)
-    turn_on_plane(color)
-    turn_off_plane() -> Called by constructor
-    ``
+ ```python
+    def wait(seconds)
+    def turn_on_one_light(light_index, color)
+    def blink_one_light(light_index, color)
+    def turn_off_one_light(light_index)
+    def blink_plane(color)
+    def turn_on_plane(color)
+    def turn_off_plane()
+```
 
 ## III. Layer.py
  **Constructor :**
