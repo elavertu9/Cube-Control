@@ -26,7 +26,7 @@ argument for `self` when you call the method.
       and sets all pins to LOW.
 
 - **Methods:**
-	- *Valid color arguments: "RED", "GREEN", "BLUE"*
+	- *Valid `color` arguments: "RED", "GREEN", "BLUE"*
  
 ```python
     def configure_pins_for_output(self)
@@ -52,7 +52,7 @@ argument for `self` when you call the method.
       object in the light_list.
 
  - **Methods :**
-    - *(Valid color arguments: "RED", "GREEN", "BLUE")*
+    - *(Valid `color` arguments: "RED", "GREEN", "BLUE")*
     
  ```python
     def wait(self, seconds)
