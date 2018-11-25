@@ -54,7 +54,11 @@ if __name__ == "__main__" :
 
 	layer_selector = Layer(ground_pins)
 	
+	register_0.shiftout(0b100000000000000)
 	
+	wait(3)
+	
+	register_0.reset_lights()
 
     # END TESTING
 	print("Darkness approaching...")

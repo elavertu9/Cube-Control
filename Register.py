@@ -14,19 +14,19 @@ class Register() :
 		self.configure_pins_for_output()
 	
 	def configure_pins_for_output(self) :
-		for pin in self.register_pins_list :
+		for pin in self.register_pins :
 			GPIO.setup(pin, OUT)
 			
 	def shiftout(self, byte) :
 		GPIO.output(self.LATCH_PIN, LOW)
-		for x in range(8) :
+		for x in range(16) :
 			GPIO.output(self.DATA_PIN, (byte >> x) & 1)
 			GPIO.output(self.CLOCK_PIN, HIGH)
 			GPIO.output(self.CLOCK_PIN, LOW)
 		GPIO.output(self.LATCH_PIN, HIGH)
 	
-	def shiftout_by_light_number(self, byte) :
-		shiftout(1 << (7 - byte))
+	def shiftout_by_light_number(self, light_number) :
+		self.shiftout(1 << (15 - light_number))
 	
 	def reset_lights(self) :
 		self.shiftout(0)
