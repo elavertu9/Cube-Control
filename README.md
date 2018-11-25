@@ -8,7 +8,7 @@
 ## I. Light.py
 **Constructor :**
  -  ``
-  Light(RED, GREEN, BLUE)
+  Light(RED, GREEN, BLUE)  
   ``
     `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
       Creates a Light object by accepting color pin
@@ -32,7 +32,7 @@
 ## II. Plane.py
 **Constructor :**
 - ``
-	Plane(light_list)
+	Plane(light_list)  
 	``
 	  `light_list` is a list of the Light objects you
       have initialized that lay in the same plane.
@@ -57,7 +57,7 @@
 ## III. Layer.py
  **Constructor :**
  - ``
-	Layer(ground_pins_list)
+	Layer(ground_pins_list)  
 	``
      `ground_pins_list` is a list of the connected ground
       pin numbers. The constructor sets up the pins for output
