@@ -1,29 +1,29 @@
-# Cube
-Raspberry Pi controlled LED RGB Cube
+# Term Project: The Cube
+*Note: The follow files are not finished. They are a work
+      in progress.*
 
-Eli's a Bitch
-
-Note: The follow files are not finished. They are a work
-      in progress.
-
-I. Light.py
------------
-  *Light(RED, GREEN, BLUE)
-    * RED, GREEN, BLUE correspond to their pin numbers.
-      Creates a Light object by accepting color pin
+##I. Light.py
+- ```python
+Light(RED, GREEN, BLUE)
+```
+    - `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
+    -  Creates a Light object by accepting color pin
       numbers in the order above. The constructor
       automatically configures the pins for output
       and sets all pins to LOW.
 
-  *Methods:
-    *(Valid color arguments: "RED", "GREEN", "BLUE")*
-    *configure_pins_for_output() -> Called by constructor
-    *wait(seconds)
-    *turn_color_on(color)
-    *turn_color_off(color)
-    *blink_color(color)
-    *reset_light() -> Called by constructor
-    *get_pin_number_if_color_is_valid()
+- Methods:
+ - <span style="color:green">*Valid color arguments: "RED", "GREEN", "BLUE"*</span>
+ 
+ -  ```python
+    configure_pins_for_output() -> Called by constructor
+    wait(seconds)
+    turn_color_on(color)
+    turn_color_off(color)
+    blink_color(color)
+    reset_light() -> Called by constructor
+    get_pin_number_if_color_is_valid()
+    ```
 
 II. Plane.py
 ------------
