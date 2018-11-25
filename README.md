@@ -8,10 +8,10 @@
 ## I. Light.py
 **Constructor :**
  -  ``
-  Light(RED, GREEN, BLUE)\
+  Light(RED, GREEN, BLUE)
   ``
    
-   `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
+   - `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
       Creates a Light object by accepting color pin
       numbers in the order above. The constructor
       automatically configures the pins for output
@@ -33,9 +33,10 @@
 ## II. Plane.py
 **Constructor :**
 - ``
-	Plane(light_list)  
-	``
-	  `light_list` is a list of the Light objects you
+  Plane(light_list)  
+  ``
+	
+   - `light_list` is a list of the Light objects you
       have initialized that lay in the same plane.
       Creates a Plane object that allows you to
       control a group of LED's at a time. The constructor
@@ -58,9 +59,10 @@
 ## III. Layer.py
  **Constructor :**
  - ``
-	Layer(ground_pins_list)  
-	``
-     `ground_pins_list` is a list of the connected ground
+  Layer(ground_pins_list)  
+  ``
+    
+  - `ground_pins_list` is a list of the connected ground
       pin numbers. The constructor sets up the pins for output
       and turns them to LOW by default. Creates a Layer object
       that allows you to control which layer of the cube is turned
