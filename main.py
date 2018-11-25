@@ -54,7 +54,7 @@ if __name__ == "__main__" :
 
 	layer_selector = Layer(ground_pins)
 	
-	register_0.shiftout(0b100000000000000)
+	register_0.reset_lights()
 	
 	wait(3)
 	

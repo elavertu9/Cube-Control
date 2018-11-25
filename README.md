@@ -88,7 +88,29 @@ argument for `self` when you call the method.
    def get_pin_number_if_layer_is_valid(self, which_layer)
 ```
 
-## IV. test.py
+## IV. Register.py
+  **Constructor :**
+```python
+	Register(self, DATA_PIN, CLOCK_PIN, LATCH_PIN)
+```
+
+	- `DATA_PIN`, `CLOCK_PIN`, `LATCH_PIN` correspond to the
+	   register pin numbers. Creates a Register object by accepting
+	   the register pin numbers in the order above. The Register
+	   object has a few methods to assist in bit shifting. The 
+	   Register constructor automatically configures the pins 
+	   for output. 
+	   
+	- **Methods :**
+
+```python
+	def configure_pins_for_output(self)
+	def shiftout(self, byte)
+	def shiftout_by_light_number(self, light_number)
+	def reset_lights(self)
+```
+
+## V. test.py
   * A file including a bunch of random code that I felt
     may be needed again. A lot of it is Light patterns and
     tests we have ran while building.
