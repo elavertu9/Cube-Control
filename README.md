@@ -7,7 +7,7 @@
       
 ## I. Light.py
 **Constructor :**
-```javascript
+```python
   Light(RED, GREEN, BLUE)
 ```
    
