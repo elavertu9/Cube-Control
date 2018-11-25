@@ -81,11 +81,11 @@ argument for `self` when you call the method.
  - **Methods :**
 
 ```python
-    	def configure_pins_for_output(self)
-	    def turn_off_all_pins(self)
-      def turn_on_layer(self, which_layer)
-      def turn_off_layer(self, which_layer)
-      def get_pin_number_if_layer_is_valid(self, which_layer)
+   def configure_pins_for_output(self)
+   def turn_off_all_pins(self)
+   def turn_on_layer(self, which_layer)
+   def turn_off_layer(self, which_layer)
+   def get_pin_number_if_layer_is_valid(self, which_layer)
 ```
 
 ## IV. test.py
