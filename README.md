@@ -5,6 +5,12 @@
 *Note: The follow files are not finished. They are a work
       in progress.*
       
+You will see `self` as a parameter for a lot of the methods...
+
+This is Python's class method syntax. Think of it as `this` 
+
+being passed as a parameter.
+      
 ## I. Light.py
 **Constructor :**
 ```python
