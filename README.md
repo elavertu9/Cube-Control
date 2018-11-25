@@ -9,7 +9,9 @@ You will see `self` as a parameter for a lot of the methods...
 
 This is Python's class method syntax. Think of it as `this` 
 
-being passed as a parameter.
+being passed as a parameter. In reality, you do NOT supply the 
+
+argument for `self` when you call the method.
       
 ## I. Light.py
 **Constructor :**
