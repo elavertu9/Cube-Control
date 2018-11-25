@@ -71,7 +71,8 @@
       may shoot yourself in the foot if you'd like :)
 
  - **Methods :**
-    - ``
+   
+   - ``
     configure_pins_for_output() -> Called by constructor
     turn_off_all_pins() -> Called by constructor
     ``
