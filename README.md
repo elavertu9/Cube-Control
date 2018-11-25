@@ -8,7 +8,7 @@
 ## I. Light.py
 **Constructor :**
  -  ``
-  Light(RED, GREEN, BLUE)  
+  Light(RED, GREEN, BLUE)  <br/>
   ``
     `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
       Creates a Light object by accepting color pin
