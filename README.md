@@ -9,9 +9,9 @@
 **Constructor :**
  -  ``
   Light(RED, GREEN, BLUE)\
-  
   ``
-    `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
+   
+   `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
       Creates a Light object by accepting color pin
       numbers in the order above. The constructor
       automatically configures the pins for output
