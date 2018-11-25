@@ -4,21 +4,21 @@
 ># Term Project: The Cube
 *Note: The follow files are not finished. They are a work
       in progress.*
-      
+
 You will see `self` as a parameter for a lot of the methods...
 
-This is Python's class method syntax. Think of it as `this` 
+This is Python's class method syntax. Think of it as `this`
 
-being passed as a parameter. In reality, you do NOT supply the 
+being passed as a parameter. In reality, you do NOT supply the
 
 argument for `self` when you call the method.
-      
+
 ## I. Light.py
 **Constructor :**
 ```python
   Light(self, RED, GREEN, BLUE)
 ```
-   
+
  - `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
       Creates a Light object by accepting color pin
       numbers in the order above. The constructor
@@ -27,7 +27,7 @@ argument for `self` when you call the method.
 
 - **Methods:**
 	- *Valid `color` arguments: "RED", "GREEN", "BLUE"*
- 
+
 ```python
     def configure_pins_for_output(self)
     def wait(self, seconds)
@@ -43,7 +43,7 @@ argument for `self` when you call the method.
 ```python
   Plane(self, light_list)  
 ```
-	
+
 - `light_list` is a list of the Light objects you
       have initialized that lay in the same plane.
       Creates a Plane object that allows you to
@@ -53,7 +53,7 @@ argument for `self` when you call the method.
 
  - **Methods :**
     - *(Valid `color` arguments: "RED", "GREEN", "BLUE")*
-    
+
  ```python
     def wait(self, seconds)
     def turn_on_one_light(self, light_index, color)
@@ -69,7 +69,7 @@ argument for `self` when you call the method.
 ```python
   Layer(self, ground_pins_list)  
 ```
-    
+
   - `ground_pins_list` is a list of the connected ground
       pin numbers. The constructor sets up the pins for output
       and turns them to LOW by default. Creates a Layer object
@@ -79,14 +79,16 @@ argument for `self` when you call the method.
       may shoot yourself in the foot if you'd like :)
 
  - **Methods :**
-   
+
 ```python
     	def configure_pins_for_output(self)
-	def turn_off_all_pins(self)
+	    def turn_off_all_pins(self)
+      def turn_on_layer(self, which_layer)
+      def turn_off_layer(self, which_layer)
+      def get_pin_number_if_layer_is_valid(self, which_layer)
 ```
 
 ## IV. test.py
   * A file including a bunch of random code that I felt
     may be needed again. A lot of it is Light patterns and
     tests we have ran while building.
-

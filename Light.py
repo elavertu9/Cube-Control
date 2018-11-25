@@ -47,5 +47,5 @@ class Light() :
      elif color == "BLUE" :
         return_value = self.BLUE
      else :
-        sys.exit("Invalid Color Option! Valid options are RED, GREEN, BLUE.")
+        sys.exit("Invalid Color argument! Valid color arguments are RED, GREEN, BLUE.")
      return return_value

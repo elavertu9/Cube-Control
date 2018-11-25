@@ -32,7 +32,6 @@ if __name__ == "__main__" :
 	pins = [[20,24,25], [9,10,6], [5,27,11], [26,19, 13]]
 	ground_pins = [21,16,12,18]
 
-
 	column_0 = Light(pins[0][0], pins[0][1], pins[0][2])
 	column_1 = Light(pins[1][0], pins[1][1], pins[1][2])
 	column_2 = Light(pins[2][0], pins[2][1], pins[2][2])
@@ -50,12 +49,11 @@ if __name__ == "__main__" :
 
 	plane_list = [plane_0, plane_1, plane_2, plane_3]
 
-	# for pin in ground_pins :
-	# 	GPIO.setup(pin, GPIO.OUT)   Done in setup function for a Layer object
-	# 	GPIO.output(pin, LOW)
+    layer_selector = Layer(ground_pins)
 
-	for plane in plane_list :
-		plane.turn_off_plane()
+    layer_selector.turn_on_layer(0, 1, 2, 3)
+
+    layer_selector.turn_off_layer(0, 1, 2, 3)
 
 	GPIO.output(ground_pins[0], HIGH)
 
