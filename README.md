@@ -2,7 +2,7 @@
 *Note: The follow files are not finished. They are a work
       in progress.*
 
-##I. Light.py
+## I. Light.py
 - ```python
 Light(RED, GREEN, BLUE)
 ```
@@ -14,8 +14,7 @@ Eli's a Bitch
 Note: The follow files are not finished. They are a work
       in progress.
 
-I. Light.py
------------
+## I. Light.py
   *Light(RED, GREEN, BLUE)
     * `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
       Creates a Light object by accepting color pin
@@ -36,8 +35,7 @@ I. Light.py
     get_pin_number_if_color_is_valid()
     ```
 
-II. Plane.py
-------------
+## II. Plane.py
   *Plane(light_list)
     * light_list is a list of the Light objects you
       have initialized that lay in the same plane.
@@ -56,8 +54,7 @@ II. Plane.py
     *turn_on_plane(color)
     *turn_off_plane()
 
-III. Layer.py
--------------
+## III. Layer.py
   *Layer(ground_pins_list)
     * ground_pins_list is a list of the connected ground
       pin numbers. The constructor sets up the pins for output
@@ -71,8 +68,7 @@ III. Layer.py
     *configure_pins_for_output() -> Called by constructor
     *turn_off_all_pins() -> Called by constructor
 
-IV. test.py
------------
+## IV. test.py
   * A file including a bunch of random code that I felt
     may be needed again. A lot of it is Light patterns and
     tests we have ran while building.
