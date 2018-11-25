@@ -36,7 +36,7 @@
   Plane(light_list)  
   ``
 	
-   - `light_list` is a list of the Light objects you
+- `light_list` is a list of the Light objects you
       have initialized that lay in the same plane.
       Creates a Plane object that allows you to
       control a group of LED's at a time. The constructor
