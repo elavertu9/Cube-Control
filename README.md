@@ -8,6 +8,17 @@ Light(RED, GREEN, BLUE)
 ```
     - `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
     -  Creates a Light object by accepting color pin
+=======
+Eli's a Bitch
+
+Note: The follow files are not finished. They are a work
+      in progress.
+
+I. Light.py
+-----------
+  *Light(RED, GREEN, BLUE)
+    * `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
+      Creates a Light object by accepting color pin
       numbers in the order above. The constructor
       automatically configures the pins for output
       and sets all pins to LOW.
