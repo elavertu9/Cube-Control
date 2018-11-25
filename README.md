@@ -33,7 +33,7 @@
 ## II. Plane.py
 **Constructor :**
 ```python
-  Plane(light_list)  
+  Plane(self, light_list)  
 ```
 	
 - `light_list` is a list of the Light objects you
