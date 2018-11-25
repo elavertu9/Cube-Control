@@ -73,8 +73,8 @@
  - **Methods :**
    
    - ``
-    configure_pins_for_output() -> Called by constructor
-    turn_off_all_pins() -> Called by constructor
+    	configure_pins_for_output() -> Called by constructor
+    	turn_off_all_pins() -> Called by constructor
     ``
 
 ## IV. test.py
