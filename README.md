@@ -8,7 +8,7 @@
 ## I. Light.py
 **Constructor :**
 ```python
-  Light(RED, GREEN, BLUE)
+  Light(self, RED, GREEN, BLUE)
 ```
    
  - `RED`, `GREEN`, `BLUE` correspond to their pin numbers.
@@ -21,13 +21,13 @@
 	- *Valid color arguments: "RED", "GREEN", "BLUE"*
  
 ```python
-    def configure_pins_for_output()
-    def wait(seconds)
-    def turn_color_on(color)
-    def turn_color_off(color)
-    def blink_color(color)
-    def reset_light()
-    def get_pin_number_if_color_is_valid()
+    def configure_pins_for_output(self)
+    def wait(self, seconds)
+    def turn_color_on(self, color)
+    def turn_color_off(self, color)
+    def blink_color(self color)
+    def reset_light(self)
+    def get_pin_number_if_color_is_valid(self, color)
 ```
 
 ## II. Plane.py
