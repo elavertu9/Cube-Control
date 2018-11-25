@@ -47,20 +47,20 @@
     - *(Valid color arguments: "RED", "GREEN", "BLUE")*
     
  ```python
-    def wait(seconds)
-    def turn_on_one_light(light_index, color)
-    def blink_one_light(light_index, color)
-    def turn_off_one_light(light_index)
-    def blink_plane(color)
-    def turn_on_plane(color)
-    def turn_off_plane()
+    def wait(self, seconds)
+    def turn_on_one_light(self, light_index, color)
+    def blink_one_light(self, light_index, color)
+    def turn_off_one_light(self, light_index)
+    def blink_plane(self, color)
+    def turn_on_plane(self, color)
+    def turn_off_plane(self)
 ```
 
 ## III. Layer.py
  **Constructor :**
- - ``
-  Layer(ground_pins_list)  
-  ``
+```python
+  Layer(self, ground_pins_list)  
+```
     
   - `ground_pins_list` is a list of the connected ground
       pin numbers. The constructor sets up the pins for output
@@ -72,10 +72,10 @@
 
  - **Methods :**
    
-   - ``
-    	configure_pins_for_output() -> Called by constructor
-	turn_off_all_pins() -> Called by constructor
-    ``
+```python
+    	def configure_pins_for_output(self)
+	def turn_off_all_pins(self)
+```
 
 ## IV. test.py
   * A file including a bunch of random code that I felt
