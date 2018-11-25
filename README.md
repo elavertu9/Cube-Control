@@ -21,13 +21,13 @@
 	- *Valid color arguments: "RED", "GREEN", "BLUE"*
  
 ```python
-    configure_pins_for_output() -> Called by constructor
-    wait(seconds)
-    turn_color_on(color)
-    turn_color_off(color)
-    blink_color(color)
-    reset_light() -> Called by constructor
-    get_pin_number_if_color_is_valid()
+    def configure_pins_for_output()
+    def wait(seconds)
+    def turn_color_on(color)
+    def turn_color_off(color)
+    def blink_color(color)
+    def reset_light()
+    def get_pin_number_if_color_is_valid()
 ```
 
 ## II. Plane.py
