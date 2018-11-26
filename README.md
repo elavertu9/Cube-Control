@@ -94,12 +94,12 @@ argument for `self` when you call the method.
    Register(self, DATA_PIN, CLOCK_PIN, LATCH_PIN)
 ```
 
-	- `DATA_PIN`, `CLOCK_PIN`, `LATCH_PIN` correspond to the
-	   	register pin numbers. Creates a Register object by accepting
-	   	the register pin numbers in the order above. The Register
-	   	object has a few methods to assist in bit shifting. The 
-	   	Register constructor automatically configures the pins 
-	   	for output. 
+  - `DATA_PIN`, `CLOCK_PIN`, `LATCH_PIN` correspond to the
+	register pin numbers. Creates a Register object by accepting
+	the register pin numbers in the order above. The Register
+	object has a few methods to assist in bit shifting. The 
+	Register constructor automatically configures the pins 
+	for output. 
 	   
 - **Methods :**
 
