@@ -91,7 +91,7 @@ argument for `self` when you call the method.
 ## IV. Register.py
   **Constructor :**
 ```python
-	Register(self, DATA_PIN, CLOCK_PIN, LATCH_PIN)
+   Register(self, DATA_PIN, CLOCK_PIN, LATCH_PIN)
 ```
 
 	- `DATA_PIN`, `CLOCK_PIN`, `LATCH_PIN` correspond to the
@@ -101,13 +101,13 @@ argument for `self` when you call the method.
 	   Register constructor automatically configures the pins 
 	   for output. 
 	   
-	- **Methods :**
+- **Methods :**
 
 ```python
-	def configure_pins_for_output(self)
-	def shiftout(self, byte)
-	def shiftout_by_light_number(self, light_number)
-	def reset_lights(self)
+   def configure_pins_for_output(self)
+   def shiftout(self, byte)
+   def shiftout_by_light_number(self, light_number)
+   def reset_lights(self)
 ```
 
 ## V. test.py
